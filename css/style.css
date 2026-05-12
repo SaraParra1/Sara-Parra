@@ -179,3 +179,10 @@ padding: 10px;
    gap: 0.8rem;
    margin-bottom: 2rem;
 }
+
+@media (max-width: 600px) {
+   header, 
+   footer {
+      flex-direction: column;
+   }
+}
