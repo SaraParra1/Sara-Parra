@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Mi Tienda</title>
+</head>
+<body>
+    <header>
+    <div class="div-logo">
+        <a href="./index.html" class="Logo"></a>
+        <img src="../img/logo.png" />
+    </div>
+    <nav class="header-nav">
+<ul>
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="./contacto.html">Contacto</a></li>
+</ul>
+
+    </nav>
+   </header> 
+   <main>
+    <h1 class="titulo-contacto text-secondary">Contáctanos</h1>
+    <form class="form-contacto"
+  action="https://formspree.io/f/mnjwbola"
+  method="POST">
+  <div class="grupo-input">
+  <label for="nombre">Nombre</label>
+  <input id="nombre" type="name" name="nombre" placeholder="Tu nombre" />
+   </div>
+
+<div class="grupo-input">
+  <label for="email"> Correo:</label>
+    <textarea id="email" name="email" placeholder="casillero@email.com"></textarea>
+    </div>
+
+    <div class="grupo-input">
+  <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" placeholder="Escribenos tu consulta aqui"></textarea>
+    </div>
+
+  <!-- your other form fields go here -->
+  <button class="btn bg-secondary text-dark type="submit">Enviar</button>
+</form>
+   </main>
+   <footer>
+    <p>Lun-Vie 9:00-20:00 /  Buenos Aires, Argentina</p>
+    <p> Hecho por Sara Parra para Talento Tech</p>
+    <nav>
+        <ul class="footer-list">
+            <li><img src="../img/whats.png" alt="Logo-Whatsapp"/> </li>
+            <li><img src="../img/youtube.png" alt="Logo-Youtube"/></li>
+            <li><img src="../img/insta.png" alt="Logo-Instagram"/></li>
+        </ul>
+    </nav>
+   </footer>  
+</body>
+</html>
