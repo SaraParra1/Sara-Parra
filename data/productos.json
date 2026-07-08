@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "nombre": "Flor a crochet",
+        "precio": 15000,
+        "img": "img/flor.jpeg"
+    },
+
+    {
+        "id": "2",
+        "nombre": "Corazón a crochet",
+        "precio": 23000,
+        "img": "img/corazon.jpeg"
+    },
+
+    {
+        "id": "3",
+        "nombre": "Oso a crochet",
+        "precio": 38000,
+        "img": "img/oso.jpeg"
+    },
+
+     {
+        "id": "4",
+        "nombre": "Dino a crochet",
+        "precio": 18000,
+        "img": "img/dino.jpeg"
+    }
+]

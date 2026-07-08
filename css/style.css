@@ -11,8 +11,9 @@ html {
 body {
     font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
-    background: rgb(240, 178, 122); 
-    color: rgb(218, 231, 218);
+    background: #faf9f6;
+    color: #ebc6c0;
+
 
     display: flex;
     flex-direction: column;
@@ -32,12 +33,13 @@ body {
     font-size: 3rem;
     font-weight: 800;
     line-height: 1.15;
+    text-align: center;
     margin: 3rem 0;
  }
 
  h2 {
     font-size: 2.4rem;
-    color: aliceblue;
+    color: rgb(16, 17, 19);
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
@@ -54,8 +56,8 @@ body {
 
  header, 
  footer{
-    background: rgb(211, 147, 102);
-    color: rgb(145, 38, 19); 
+    background: #ebc6c0;
+    color: #ffffff;
     width: 100%;
 
     display: flex;
@@ -99,15 +101,15 @@ padding: 0.5rem;
 }
 
 .bg-primary {
-   background-color: blue;
+   background-color: rgb(244, 244, 252);
 }
 
 .bg-secondary {
-   background-color: rgb(145, 38, 19);
+   background-color: #b964a4 ;
 }
 
 .text-light {
-   color: rgb(228, 228, 27);
+   color: #ebc6c0;
 }
 
 .text-dark {
@@ -115,7 +117,7 @@ padding: 0.5rem;
 }
 
 .text-secondary {
-   color:rgb(145, 38, 19);
+   color: #b964a4
 }
   
 .card  {
@@ -138,7 +140,7 @@ gap: 2rem;
 }
 
 .card {
-   background-color: rgb(145, 38, 19);
+   background-color: #ebc6c0;
    width: 30rem;
    border-radius: 1rem;
    overflow: hidden;
@@ -161,8 +163,8 @@ padding: 10px;
 }
 
 .form-contacto {
-   background-color: rgb(211, 147, 102);
-   color: rgb(16, 16, 17);
+   background-color: #ebc6c0;
+   color: #b964a4;
    width: 100%;
    max-width: 50rem;
    font-size: 2rem;
@@ -178,6 +180,45 @@ padding: 10px;
    flex-direction: column;
    gap: 0.8rem;
    margin-bottom: 2rem;
+}
+
+
+.mensaje-carrito-vacio {
+font-size: 2.5rem;
+text-align: center;
+margin-top: 2rem;
+}
+.acciones-carrito {
+   margin-top: 2rem;
+}
+
+.producto-carrito {
+    background-color: #ebc6c0;
+    width: 100%;
+    max-width: 60rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    margin: 0 auto 1.5rem auto;
+}
+
+.producto-carrito img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+    flex-shrink: 0;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.info-producto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 @media (max-width: 600px) {
